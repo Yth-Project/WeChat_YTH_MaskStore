@@ -14,7 +14,21 @@
 				</block>
 			</view>
 		</view>
-		
+		<!-- 商品标题及价格 -->
+		<view class="product-title-price">
+			<text class="product-title">{{title}}</text>
+			<text class="product-title-detail">{{titleDetail}}</text>
+			<text class="product-price"><span>￥</span>{{price}}</text>
+		</view>
+		<!-- 商品规格及可选规格 -->
+		<view class="specification"></view>
+		<view class="choose-specification">
+			<view class="choose-title"></view>
+			<view class="choose-box">
+				<view class="choose-item"></view>
+				<view class=""></view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -39,6 +53,9 @@
 					},
 				],
 				currentSwiper: 0,
+				title: "医用外科口罩",
+				titleDetail: '产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情',
+				price: "999.00"
 			};
 		},
 		methods: {

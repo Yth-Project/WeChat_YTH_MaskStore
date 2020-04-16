@@ -151,6 +151,20 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
@@ -171,7 +185,10 @@ var _default =
         backgroundColor: 'rgba(183,73,68)' }],
 
 
-      currentSwiper: 0 };
+      currentSwiper: 0,
+      title: "医用外科口罩",
+      titleDetail: '产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情产品详情',
+      price: "999.00" };
 
   },
   methods: {
