@@ -1,13 +1,36 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/shopcart/shopcart",
+    "pages/personal/personal",
+    "pages/product/product"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "云天昊口罩商城",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#55DACE",
+    "backgroundColor": "#ffffff",
+    "border": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心"
+      }
+    ]
   },
   "usingComponents": {}
 }
